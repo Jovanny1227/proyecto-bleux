@@ -1,0 +1,232 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    background-color: #1e172f;
+}
+.container1 a{
+    text-decoration: none;
+    color:#ffffff;
+    margin: 0px 15px 20px 14px;
+    font-size: 19px;
+}
+.container1 div{
+    padding-top: 20px;
+    margin-left: 30%;
+}
+.boton1{
+    background: linear-gradient(to right, #8441d5, #3498db);
+    color: #ffffff;
+    margin: 13px 8px 13px 8px;
+    width: 125px;
+    border-radius: 2.5px;
+}
+.container2{
+    display: flex;
+}
+.medioizquierdo{
+    background-color: #2e2550;
+    width: 50%;
+    color: #ffffff;
+    padding: 7% 0%;
+}
+.medioizquierdo h1{
+    font-size: 98px;
+    width: 100px;
+}
+.medioizquierdo p{
+    font-size: 23px;
+    text-align: left;
+    width: 500px;
+    margin-top: 3%;
+}
+.texto{
+    margin-left: 40%;
+}
+.botones{
+    margin-left: 40%;
+    margin-top: 2%;
+    border: solid #524c6b 0.1px; 
+    width: max-content;
+    padding: 7px;
+}
+.btn1{
+    padding: 10px 10px 10px 10px;
+    color: #f41486;
+}
+.btn2{
+    padding: 10px 10px 10px 10px;
+    width: 125px;
+    background-color:#1e172f;
+    color: #ffffff;
+}
+.medioderecho{
+    background-image:url(imgs/hojasFondo.jpg) ;
+    width: 50%;
+    background-position-x: -2px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.medioderecho img{
+    margin-left: 3%;
+    margin-top: 38px;
+    margin-bottom: 24px;
+}
+.container3{
+    display: flex;
+    flex-direction: column;
+}
+.container3 h2{
+    margin-left: 42%;
+    color: #f41486;
+    margin-top: 10px;
+    font-size: 50px;
+}
+.texto2{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 38px 0px 30px 80px;
+}
+.imagenTexto{
+    height: 310px;
+    width: 462px;
+    margin-right: 75px;
+}
+
+.textoTexto img{
+    height: 14px;
+    width: 14px;
+}
+.textoTexto h3{
+    color: #c44788;
+    font-size: 43px;
+    margin-bottom: revert-layer;
+}
+.textoTexto p{
+    font-size: 23px;
+    width: 500px;
+}
+.textoTexto h4{
+    color: #f41486;
+    font-size: 24px;
+    margin-top: 18px;
+}
+li{
+    list-style:none;
+    font-size: 20px;
+}
+.textoTexto li::before {
+    content: "";
+    display: inline-block;
+    background-image: url(imgs/cheak.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+.lista li::before {
+    content: "";
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-right: 27px;
+    vertical-align: middle;
+}
+.estrella::before{
+    background-image:url(imgs/estrellita.png);   
+}
+.chulo::before{
+    background-image:url(imgs/chulo.png);
+}
+.equis::before{
+    background-image: url(imgs/equisnegro.png);
+}
+
+.estrellaNegra::before{
+    background-image:url(imgs/estrellaNegro.png);   
+}
+.chuloNegro::before{
+    background-image:url(imgs/chulongro.png);
+}
+.equisNegro::before{
+    background-image: url(imgs/equisnegro.png);
+}
+.Eltitulo{
+    justify-items: center;
+    color: #ffffff;
+    padding: 42px 7px;
+}
+.Eltitulo p{
+    width: 537px;
+    text-align: center;
+}
+.Eltitulo h2{
+    font-size: 51px;
+}
+.semicontenedor4{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 57px;
+    gap: 59px;
+}
+.semicontenedor4 div{
+    background-color: #ffffff;
+    width: 309px;
+    justify-items: center;
+}
+.semicontenedor4 p{
+    text-align: center;
+    width: 276px;
+    margin-top: 13px;
+    margin-bottom: revert;
+}
+.container4{
+    background-color: #1e172f;
+}
+#botonClaro{
+    background-color: #f5f5f5;
+}
+#botonClaro button{
+    margin-left: 34%;
+    padding: 6px;
+    margin-top: 9px;
+    background-color: #f41486;
+    color: #ffffff;
+    border: none;
+}
+#botonOscuro{
+    background-color: #f5f5f5;
+    padding-bottom: 11px;  
+}
+#botonOscuro button{
+    margin-left: 34%;
+    padding: 6px;
+    margin-top: 9px;
+    background-color: #1e172f;
+    color: #ffffff;
+}
+#numeros{
+    background-color:#f5f5f5;
+    margin-bottom: 9px;
+}
+#rosao{
+    color: #f41486;
+}
+footer{
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+footer img{
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+}
