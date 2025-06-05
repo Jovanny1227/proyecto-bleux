@@ -2,6 +2,9 @@
     margin: 0%;
     padding: 0%;
 }
+.container1 a:hover{
+    color:#ffffffa6;
+}
 .container1{
     display: flex;
     justify-content: center;
@@ -50,19 +53,21 @@
 .botones{
     margin-left: 40%;
     margin-top: 2%;
-    border: solid #524c6b 0.1px; 
+    border: solid #ffffff 0.1px; 
     width: max-content;
     padding: 7px;
 }
 .btn1{
     padding: 10px 10px 10px 10px;
+    width: 125px;
     color: #f41486;
     cursor: pointer;
+    border: #1e172f 0.1px;
 }
 .btn2{
     padding: 10px 10px 10px 10px;
     width: 125px;
-    background-color:#1e172f;
+    background-color:transparent;
     color: #ffffff;
     cursor: pointer;
 }
@@ -178,36 +183,40 @@ li{
     justify-content: center;
     padding-bottom: 57px;
     gap: 59px;
+    height: 493px;
 }
 .semicontenedor4 div{
     background-color: #ffffff;
     width: 309px;
     justify-items: center;
+    margin-top: 23px;
 }
 .semicontenedor4 p{
     text-align: center;
     width: 276px;
-    margin-top: 13px;
-    margin-bottom: revert;
+    margin-top: 19px;
+    margin-bottom: 38px;
 }
 .container4{
     background-color: #1e172f;
 }
 #botonClaro{
     background-color: #f5f5f5;
+    padding-bottom: 11px;
 }
 #botonClaro button{
+    background: linear-gradient(to right, #f577bc, #e22d78);
     margin-left: 34%;
     padding: 6px;
     margin-top: 9px;
-    background-color: #f41486;
     color: #ffffff;
-    border: none;
     cursor: pointer;
+    border: none;
 }
 #botonOscuro{
     background-color: #f5f5f5;
     padding-bottom: 11px;  
+    
 }
 #botonOscuro button{
     margin-left: 34%;
@@ -236,12 +245,15 @@ footer{
     background-color: #ffffff;
     justify-content: space-around;
     padding: 7px 0;
-    
+}
+footer p{
+    margin: 1%;
 }
 footer img{
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 17px;
     margin-right: 12px;
+    margin-top: 17%;
 }
 
 @media (max-width: 1279px) {
@@ -272,9 +284,6 @@ footer img{
     .container3 h2{
         margin-left: 32%;
     }
-    .medioizquierdo{
-        padding: 14% 0%;
-    }
     .botones{
         margin-left: 16%;
     }
@@ -297,6 +306,9 @@ footer img{
     .textoTexto h4{
         margin-top: 9px;
     }
+    .semicontenedor4{
+        gap: 32px;
+    }
     .semicontenedor4 div{
         width: 238px;
     }
@@ -310,6 +322,9 @@ footer img{
     #botonClaro button {
         margin-left: 27%;
     }
+    footer img{
+        margin-top: 7%;
+    }
 }
 @media (max-width:920px){
     .medioizquierdo h1 {
@@ -319,10 +334,11 @@ footer img{
         padding-left: 34px; 
     }
     .container1 div{
-        margin-left: 17%;
+        margin-left: 23%;
+        width: 329px;
     }
     .boton1{
-        margin: 13px 43px 13px 0px;
+        margin: 13px 17px 13px 0px;
     }
     .imagenTexto{
         margin-left: -97px;
@@ -335,7 +351,7 @@ footer img{
         padding: 12px 0px 30px 80px;
     }
     .semicontenedor4 div{
-        width: 190px;
+        width: 204px;
     }
     .lista li{
         font-size: 15px;
@@ -344,15 +360,20 @@ footer img{
         margin-left: 5px;
         font-size: 15px;
     }
+    .semicontenedor4{
+        gap: 32px;
+        padding-bottom: 50px;
+    }
     .semicontenedor4 p {
-        width: 151px;
+        width: 184px;
         font-size: 13px;
     }
     #botonOscuro button {
-        margin-left: 22%;
+        margin-left: 26%;
     }
     #botonClaro button {
-        margin-left: 22%;
+        margin-left: 26%;
+        padding: 6px;
     }
     .Eltitulo p{
         width: 460px;
@@ -362,13 +383,14 @@ footer img{
         font-size: 53px;
         margin-bottom: 10px;
     }
+
 }
-@media (max-width:798px){
+ @media (max-width:798px){
     .container1 {
         padding-left: 20px;
     }
     .container1 img{
-        height: 59px;
+        height: 58px;
         width: 106px;
     }
     .boton1 {
@@ -376,8 +398,7 @@ footer img{
         padding: 9px 5px;
     }
     .container1 div {
-        margin-left: 12%;
-        width: 709px;
+        margin-left: 23%; 
     }
     .container1 a{
         font-size: 12px;
@@ -430,9 +451,11 @@ footer img{
     }
     .semicontenedor4{
         gap: 12px;
+        height: auto;
+        padding-bottom: 26px;
     }
     .semicontenedor4 div {
-        width: 127px;
+        width: 142px;
     }
     #numeros{
         font-size: 11px;
@@ -466,7 +489,99 @@ footer img{
     footer{
         font-size: 11px;
     }
-}
+    footer img {
+    width: 17px;
+    height: 15px;
+    margin-top: 3%;
+    }
+} 
 @media (max-width:480px){
-    
+     .container1 div {
+        margin-left: 10%;
+        padding-top: 11px;
+    }
+    .medioderecho img {
+        margin-left: 7%;
+        margin-top: 51px;
+        height: 220px;
+    }
+    .medioizquierdo h1 {
+        font-size: 33px;
+    }
+    .btn1 {
+        padding: 6px 2px 6px 2px;
+        font-size: 10px;
+        width: 54px;
+        
+    }
+    .btn2 {
+        padding: 14px 2px 6px 2px;
+        font-size: 11px;
+        width: 66px;
+    }
+    .medioizquierdo p {
+        font-size: 10px;
+        width: 113px;
+    }
+    .texto{
+        padding: 38px 0px 16px 1px;
+    }
+    .container3 h2 {
+        margin-left: 27%;
+        font-size: 24px;
+    }
+    .textoTexto p {
+        font-size: 11px;
+        width: 154px;
+    }
+    .textoTexto h3 {
+        font-size: 17px;
+    }
+    .textoTexto h4 {
+        font-size: 15px;
+    }
+    li {
+        font-size: 12px;
+    }
+    .imagenTexto {
+        margin-left: -99px;
+        width: 169px;
+        height: 157px;
+    }
+    .Eltitulo h2 {
+        font-size: 31px;
+    }
+    .Eltitulo p {
+        width: 326px;
+        font-size: 11px;
+    }
+    .Eltitulo{
+        padding: 7px 7px;
+    }
+    .semicontenedor4 div {
+        width: 95px;
+    }
+    .semicontenedor4 p {
+        width: 86px;
+        font-size: 8px;
+    }
+    #botonOscuro button {
+        margin-left: 6%;
+    }
+    #botonClaro button {
+        margin-left: 6%;
+    }
+    #numeros h3 {
+        font-size: 11px;
+        margin: 10px 0;
+    }
+    #numeros {
+        display: flex;
+        font-size: 11px;
+        flex-direction: column;
+        justify-items: center;
+    }
+    .semicontenedor4 h2{
+        margin-left: 10px;
+    }
 }
