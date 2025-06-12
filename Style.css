@@ -496,7 +496,7 @@ li{
     }
 } 
 @media (max-width:480px){
-     .container1 div {
+    .container1 div {
         margin-left: 10%;
         padding-top: 11px;
     }
@@ -511,16 +511,22 @@ li{
     .medioizquierdo h1 {
         font-size: 33px;
     }
+    .botones {
+        margin-left: 16%;
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+
+    }
     .btn1 {
-        padding: 6px 2px 6px 2px;
         font-size: 10px;
-        width: 63px;
-        
+        width: 84px;
+        height: 32px;
     }
     .btn2 {
-        padding: 14px 2px 6px 2px;
+        height: 32px;
         font-size: 11px;
-        width: 66px;
+        width: 84px;
     }
     .medioizquierdo p {
         font-size: 10px;
@@ -556,31 +562,37 @@ li{
     }
     .Eltitulo p {
         width: 326px;
-        font-size: 11px;
+        font-size: 14px;
     }
     .Eltitulo{
         padding: 7px 7px;
     }
+    .semicontenedor4 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 34px;
+    }
     .semicontenedor4 div {
-        width: 97px;
+        width: 286px;
+        
     }
     .semicontenedor4 p {
-        width: 96px;
-        font-size: 11px;
+        width: 221px;
+        font-size: 16px;
         margin-bottom: -9px;
     }
     #botonOscuro button {
-        margin-left: 15%;
-        width: 70px;
+        margin-left: 34%;
+        width: 95px;
         margin-top: 7px;
     }
     #botonClaro button {
-        margin-left: 15%;
-        width: 70px;
+        margin-left: 34%;
+        width: 95px;
     }
     #numeros h3 {
         font-size: 9px;
-        margin: 6px 29px;
+        margin: 6px 122px;
     }
     #numeros {
         display: flex;
@@ -590,16 +602,16 @@ li{
         height: 73px;
     }
     .Lite{
-        margin-left: 35px;
+        margin-left: 125px;
     }
     .Standard{
-        margin-left: 17px;
+        margin-left: 109px;
     }
     .Ultimate{
-        margin-left: 20px;
+        margin-left: 115px;
     }
     .lista li {
-        font-size: 10px;
+        font-size: 18px;
         display: flex;
         flex-direction: row;
     }
