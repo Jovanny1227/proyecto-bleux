@@ -1,0 +1,96 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+}
+.container1{
+    background-image:url(imgs/banner-bk.jpg);
+    background-size: cover;
+    color: #ffffff;
+    padding: 44px 0px;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 137px;
+    align-items: center;
+}
+
+.texto1{
+    padding: 36px 137px;
+}
+.texto1 h1{
+    font-size: 66px;
+}
+.marginTexto{
+    margin-top: 29px;
+}
+.primerBoton{
+    background-color: #00ffad;
+    padding: 15px 31px;
+    margin-top: 29px;
+    border-radius: 24px;
+    border: none;
+    font-size: 16px;
+}
+.tresimgs{
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    text-align: center;
+}
+.tresimgs h3{
+    margin-bottom: 10px;
+}
+.tresimgs p{
+    width: 282px;
+}
+.texto2{
+    display: flex;
+    justify-content: center;
+    padding: 31px 0px;
+    font-size: 26px;
+}
+.semicontainer2{
+     background: linear-gradient(-10deg, #00ffad 50%, #ffffff 50%);
+     display: flex;
+     height: 56vh;
+     justify-content: space-evenly;
+     padding-top: 73px;
+}
+.semicontainer2 div{
+    padding: 92px 0px;
+}
+.semicontainer2 img{
+    height: 32vh;
+    width: 54vh;
+}
+.semicontainer2 p{
+    font-size: 16px;
+}
+.semicontainer2 h2{
+    font-size: 50px;
+    margin-bottom: 14px;
+}
+.segundoBoton{
+    background-color: #192440;
+    padding: 15px 31px;
+    margin-top: 29px;
+    border-radius: 24px;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+.segundosemiconte2{
+    display: flex;
+    background-color: #00ffad;
+    padding: 27px 0px;
+    justify-content: space-evenly;
+}
+.segundosemiconte2 h2{
+    font-size: 50px;
+    margin-bottom: 14px;
+}
+.segundosemiconte2 p{
+    font-size: 19px;
+}

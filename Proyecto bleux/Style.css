@@ -2,8 +2,8 @@
     margin: 0%;
     padding: 0%;
 }
-button:hover{
-    
+p::selection{
+    background-color: #e22d78;
 }
 .container1 a:hover{
     color:#ffffffa6;
@@ -571,6 +571,7 @@ li{
         display: flex;
         flex-direction: column;
         margin-left: 34px;
+
     }
     .semicontenedor4 div {
         width: 286px;
